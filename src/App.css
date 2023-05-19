@@ -1,3 +1,13 @@
+body {
+  background-image: url("./images/output-onlinepngtools.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a {
+  color: #9670f4;
+}
+
 .App-header {
   margin: 30px 0;
 }
