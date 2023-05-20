@@ -4,6 +4,7 @@ import Meaning from "./Meaning";
 import "./Results.css";
 
 export default function Results(props) {
+  console.log(props);
   if (props.results) {
     return (
       <div className="Results">
@@ -22,7 +23,6 @@ export default function Results(props) {
                   })}
                 </div>
               </section>
-              <br />
               <section>
                 {definition.meanings.map(function (meaning, index) {
                   return <Meaning meaning={meaning} key={index} />;

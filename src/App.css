@@ -2,10 +2,12 @@ body {
   background-image: url("./images/output-onlinepngtools.png");
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: "Poppins", sans-serif;
 }
 
-a {
-  color: #9670f4;
+.App a {
+  background: #e1dacf;
+  color: #383838;
 }
 
 .App {
@@ -18,12 +20,16 @@ a {
 }
 
 .App-logo {
-  max-width: 200px;
-  display: block;
+  max-width: 100px;
+  display: flex;
   margin: 0 auto;
 }
 
 .App-footer {
   text-align: center;
   margin: 30px 0;
+}
+.App-footer a {
+  background: none;
+  color: coral;
 }
