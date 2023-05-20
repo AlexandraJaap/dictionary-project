@@ -10,10 +10,19 @@ export default function App() {
           <img src={logo} className="App-logo" alt="logo" />
         </header>
         <main>
-          <Dictionary defaultKeyword="sunset" />
+          <Dictionary defaultKeyword="welcome" />
         </main>
         <footer className="App-footer">
-          <small>Coded by SheCodes</small>
+          <small>
+            This app was coded by{" "}
+            <a href="https://melodious-selkie-9ed524.netlify.app/">
+              Alexandra Jaap
+            </a>{" "}
+            and is{" "}
+            <a href="https://github.com/AlexandraJaap/dictionary-project">
+              open-sourced
+            </a>
+          </small>
         </footer>
       </div>
     </div>
